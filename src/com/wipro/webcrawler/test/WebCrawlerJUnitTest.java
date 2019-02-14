@@ -32,7 +32,7 @@ public class WebCrawlerJUnitTest {
 	@Test
 	public void javaCrawlerDocParser() {
 		Document doc = WebCrawler.parseDocumet("http://www.wipro.com"); 
-		assertTrue(" DocumentParser failed to retrieve html Document fromm the url ", doc != null );
+		assertTrue("Parsing the documet is failed, so couldn't retrieve the html links, images from url ", doc != null );
 	}
 	
 }
